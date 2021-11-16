@@ -7,6 +7,58 @@
   pointer-events: none;
 }
 
+.nav{
+  justify-content: center;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+.newCheeseForm{
+  display: flex;
+  justify-content: center;
+}
+
+#delete{
+  margin-top: 10px;
+  margin-bottom: 20px;
+  background-color: rgb(156, 156, 252);
+}
+
+body{
+  background-color: yellow;
+}
+
+input{
+  padding: 5px;
+}
+
+.button{
+  background-color: rgb(156, 156, 252);
+}
+
+img{
+  border: black 4px solid;
+  border-radius: 50px;
+  width: 250px;
+  height: 250px;
+}
+
+.index{
+  display: grid;
+  grid-template-columns: repeat(3, 2fr);
+}
+
+@media only screen and (max-width: 500px) {
+.index{
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+}
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
